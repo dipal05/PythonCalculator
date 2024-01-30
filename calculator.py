@@ -69,6 +69,6 @@ button_dot=Button(frame,text='.',width=10,height=3,command=lambda : show('.')).g
 button_sub=Button(frame,text='-',width=10,height=3,command=lambda : show('-')).grid(row=4,column=3,pady=2)
 
 button_clear=Button(frame,text='C',width=10,height=3,bg="#3697f5",command=lambda : clear_all()).grid(row=5,column=1,pady=2)
-button_ans=Button(frame,text='=',width=22,height=3,bg='#fe9037',command=lambda : answer()).grid(row=5,column=2,pady=2,columnspan=2)
+button_ans=Button(frame,text='=',width=24,height=3,bg='#fe9037',command=lambda : answer()).grid(row=5,column=2,pady=2,columnspan=2)
 
 root.mainloop()
